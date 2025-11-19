@@ -1,0 +1,57 @@
+body{
+    background-image: url(images/shelf.jpg); 
+    width: auto;
+    height: 100%;
+} 
+
+img[alt="Raybradbury statue"] {
+  border-radius: 16px;
+}
+img[alt="BMX Logo"] {
+  border-radius: 8px;
+}
+
+p{
+  text-align: center;
+  color: antiquewhite;
+  background-color: brown;
+}
+
+h1{
+  text-align: center;
+  color:antiquewhite;
+}
+
+img{
+  display: block;
+  margin: auto;
+}
+
+
+/*Horizontal Navigation*/
+nav ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333333;
+  display: flex;
+  justify-content: center
+}
+
+
+nav ul li a {
+  color: white;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #111111;
+}
+
+ul{
+  text-align: center;
+  list-style-type: none;
+}

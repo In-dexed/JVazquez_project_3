@@ -1,0 +1,83 @@
+/*Body*/
+body{
+    background-image: url(images/code.gif); 
+} 
+
+.Page-wraper-1{
+  background-image: url(images/paper.jpg);
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  height: 1400px;    
+}
+
+p{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+#code ul li {
+    color: darkgreen;
+}
+
+h1{
+  text-align: center;
+  color:black;
+  font-family: 'Times New Roman', Times, serif  ;
+}
+h2{
+  text-align: center;
+  color: darkblue;
+}
+h3{
+  text-align: center;
+  color: darkcyan;
+}
+
+/*Horizontal Navigation*/
+nav ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333333;
+  display: flex;
+  justify-content: center
+}
+
+
+nav ul li a {
+  color: white;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #111111;
+}
+
+ul{
+  text-align: center;
+  list-style-type: none;
+}
+
+
+
+.vid{
+  width: 50%;       /* Container takes 80% of its parent width */
+  height: auto;     /* Height adjusts automatically */
+  margin: 0 auto;   /* Center the container horizontally */
+}
+
+.vid video {
+  width: 100%;      /* Video fills 100% of container width */
+  height: 100%;     /* Video fills 100% of container height */
+  display: block;
+}
+
+
+#linkedin{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
