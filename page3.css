@@ -95,6 +95,7 @@ h2 {
 #soccer1{
   font-weight: 600;
   background-color: rgb(66, 101, 21);
+  color:wheat;
 }
 #soccer2{
   font-weight: 400;
@@ -151,5 +152,37 @@ ul{
   list-style-type: none;
 }
 
+@media (max-width: 768px) {
+  #ChivasP {
+    color: #FF6B6B;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  #AmericaP {
+    color: #FF6B6B;
+    font-family: 'Courier New', Courier, monospace;
+  }
+}
+
+@media (max-width: 480px) {
+  #ChivasP {
+    color: #4ECDC4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #AmericaP {
+    color: #4ECDC4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+}
+
+@media (min-width: 1200px) {
+  #ChivasP {
+    color: #FFE66D;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  #AmericaP {
+    color: #FFE66D;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+}
 
 
