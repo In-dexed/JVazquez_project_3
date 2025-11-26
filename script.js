@@ -35,6 +35,19 @@ function init() {
     map: map,
   });
 
+  // use custom images from the `images/` folder for the markers
+  Azteca.setIcon({
+    url: 'images/america pin.jpg',
+    scaledSize: new google.maps.Size(40, 40),
+    anchor: new google.maps.Point(20, 40)
+  });
+
+  Akron.setIcon({
+    url: 'images/chivas pin.webp',
+    scaledSize: new google.maps.Size(40, 40),
+    anchor: new google.maps.Point(20, 40)
+  });
+
   var alertbox = document.getElementById("button").addEventListener("click", popup);
 
   function popup() {
